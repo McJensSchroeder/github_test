@@ -1,0 +1,16 @@
+Wer ein Programmierprojekt angeht, wird früher oder später auch auf Git treffen. 
+Wir haben dir eine einfache Übersicht über alle wichtigen Befehle zusammengestellt. 
+Damit gelingt dein Einstieg garantiert.
+
+Git ist ein Versionskontrollsystem, das im Bereich der Entwicklung unabdingbar geworden ist. 
+Es hilft euch, die Übersicht über die Historie eures Codes zu behalten. Damit kann ein alter 
+Stand einfach wieder hergestellt werden. Auch die Zusammenarbeit mit anderen Entwicklern 
+wird dadurch vereinfacht.
+
+Wer allerdings in das Thema einsteigt, kann sich schnell überfordert fühlen. Bevor du versuchst, 
+dich auf den erstbesten grafischen Git-Client zu stürzen, solltest du Folgendes beachten: 
+Sie haben häufig den Nachteil, dass du keinen richtigen Überblick über die ausgeführten Befehle hast. 
+Wenn irgendwo etwas falsch ausgeführt wurde oder manuell angepasst werden muss, 
+dann kannst du nur schwer eingreifen. Deshalb kann man alle nötigen Git-Befehle auch über das 
+Terminal ausführen. Wir haben dir eine einfache Übersicht zusammengestellt mit allem, was du brauchst, 
+damit dein Git-Einstieg gelingt.
