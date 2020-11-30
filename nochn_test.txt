@@ -14,3 +14,21 @@ Wenn irgendwo etwas falsch ausgeführt wurde oder manuell angepasst werden muss,
 dann kannst du nur schwer eingreifen. Deshalb kann man alle nötigen Git-Befehle auch über das 
 Terminal ausführen. Wir haben dir eine einfache Übersicht zusammengestellt mit allem, was du brauchst, 
 damit dein Git-Einstieg gelingt.
+
+Git-Projekt aufsetzen
+
+Navigiere in deinem Terminal zu deinem Projekt beziehungsweise in das Verzeichnis, in dem dein Projekt liegen soll. Nun kannst du ein neues Git-Repository aufsetzen:
+
+git init
+
+Falls bereits ein lokales oder entferntes Repository existiert, kannst du es ganz einfach in den gewünschten Ordner kopieren.
+
+# lokaler Klon
+git clone /pfad/lokales/repo /pfad/ziel
+# entfernter Klon
+git clone https://gitExample.com/user/repository.git
+
+Auch über SSH ist möglich, wenn du einen SSH-Key angelegt hast.
+
+git clone user@server:/pfad.git
+
