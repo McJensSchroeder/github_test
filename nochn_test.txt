@@ -32,3 +32,15 @@ Auch über SSH ist möglich, wenn du einen SSH-Key angelegt hast.
 
 git clone user@server:/pfad.git
 
+Remote Repositories
+
+Generell werden erstmal alle Repositories, die nicht lokal sind, als Remote Repository bezeichnet. Dein geklontes Repository heißt origin. Du kannst zusätzlich weitere Repositories bekanntmachen, um damit Dateien auszutauschen.
+
+# Fügt Repository von url mit name hinzu
+git remote add name url
+# Zeigt Liste aller bekanntgemachten Repositories
+git remote
+
+Falls du bislang nur mit git init ein lokales Repository erstellt hast, kannst du ein entferntes Repository bekanntmachen, indem du ein Remote Repository mit dem Namen origin hinzufügst.
+
+git remote add origin https://gitExample.com/user/repository.git
