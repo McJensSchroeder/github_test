@@ -83,3 +83,14 @@ Wenn du einen Branch erstellst, ist er erstmal nur lokal verfügbar. Um ihn auch
 
 # Pusht den Branch feature auf das Repository origin
 git push origin feature
+
+Lokales Repository auf den neusten Stand bringen
+
+Wenn andere Projektteilnehmer (oder du selbst von einem anderen Computer aus) Änderungen am entfernten Repository vorgenommen haben und du dein lokales Repository auf den neuesten Stand bringen willst, musst du die Dateien fetchen.
+
+# Lädt Änderungen vom Repository origin herunter
+git fetch origin
+# Führt Änderungen mit dem Branch master zusammen
+git merge origin/master
+# Kann auch in einem Befehl ausgeführt werden
+git pull origin master
