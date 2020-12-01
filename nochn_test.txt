@@ -94,3 +94,4 @@ git fetch origin
 git merge origin/master
 # Kann auch in einem Befehl ausgeführt werden
 git pull origin master
+
