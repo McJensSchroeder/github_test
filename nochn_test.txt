@@ -44,3 +44,25 @@ git remote
 Falls du bislang nur mit git init ein lokales Repository erstellt hast, kannst du ein entferntes Repository bekanntmachen, indem du ein Remote Repository mit dem Namen origin hinzufügst.
 
 git remote add origin https://gitExample.com/user/repository.git
+
+Änderungen hochladen
+
+Dein lokales Repository umfasst nicht nur deine Dateien. Es gibt den Head, der sich deinen letzten Commit merkt, sowie den Stage, wo deine Dateien landen, wenn du sie mit dem Add-Befehl vormerkst. Dateien in dein entferntes Repository kannst du folgendermaßen hochladen:
+1. Geänderte Dateien zum Stage hinzufügen
+
+git add datei # Fügt einzelne datei hinzu
+git add * # Fügt alle geänderten Dateien hinzu
+
+2. Commit mit Dateien aus dem Stage erstellen
+
+git commit -m "nachricht"
+# Der 1. Schritt kann übersprungen werden,
+# wenn alle geänderten Dateien hinzugefügt werden sollen
+git commit -a -m "nachricht"
+
+3. Zum entfernten Repository pushen
+
+# Pusht deinen Commit auf branch zum Repository remote
+git push remote branch
+# Pusht auf Master-Branch zum Origin-Repository
+git push origin master
