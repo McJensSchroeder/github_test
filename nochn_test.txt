@@ -102,4 +102,8 @@ Oben hast du bereits den Merge-Befehl verwendet. Er kann auch dazu genutzt werde
 # Der Branch feature wird mit dem aktuellen Branch zusammengeführt
 git merge feature
 
-Der Merge-Befehl kann allerdings auch Konflikte verursachen (kann auch beim Pull-Befehl auftreten). Das passiert häufig dann, wenn in zwei Branches Änderungen an derselben Datei durchgeführt wurden. Git versucht das selbst zu lösen, soferm es möglich ist. Falls es jedoch fehlschlägt, erhältst du eine Meldung und Git kommentiert an den entsprechenden Code-Stellen die gefundenen Konflikte. Diese müssen nun manuell gelöst werden. Danach musst du die Änderungen wieder wie in den drei oben beschriebenen Schritten hochladen.
+Der Merge-Befehl kann allerdings auch Konflikte verursachen (kann auch beim Pull-Befehl auftreten). Das passiert 
+häufig dann, wenn in zwei Branches Änderungen an derselben Datei durchgeführt wurden. Git versucht das selbst zu 
+lösen, soferm es möglich ist. Falls es jedoch fehlschlägt, erhältst du eine Meldung und Git kommentiert an den 
+entsprechenden Code-Stellen die gefundenen Konflikte. Diese müssen nun manuell gelöst werden. Danach musst du die 
+Änderungen wieder wie in den drei oben beschriebenen Schritten hochladen.
