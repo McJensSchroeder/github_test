@@ -66,3 +66,20 @@ git commit -a -m "nachricht"
 git push remote branch
 # Pusht auf Master-Branch zum Origin-Repository
 git push origin master
+
+Warum du mehr als einen Branch brauchst
+
+Wie du bei dem Push-Befehl gesehen hast, muss immer ein Branch angegeben werden. Beim Erstellen eines Git-Repository gibt es standardmäßig immer einen Master-Branch. Von diesem ausgehend kannst du jedoch weitere Branches erstellen, dort Änderungen unabhängig vom Master-Branch pushen und später wieder zusammenführen (mergen). Das ist vor allem dann sinnvoll, wenn du mit mehreren Entwicklern an einem Projekt arbeitest. So könnte es verschiedene Feature-Branches geben, wodurch jeder unabhängig und ausgehend von einer bestimmten Code-Version arbeiten kann.
+
+# Erstellt einen neuen Branch mit dem Namen feature
+# und wechselt direkt zu diesem
+git checkout -b feature
+# Branches löschen funktioniert mit dem Branch-Befehl
+git branch -d feature
+# Den Branch wechseln (hier zum Branch master)
+git checkout master
+
+Wenn du einen Branch erstellst, ist er erstmal nur lokal verfügbar. Um ihn auch auf dem entfernten Repository zur Verfügung zu stellen, greifst du erneut auf den Push-Befehl zurück.
+
+# Pusht den Branch feature auf das Repository origin
+git push origin feature
