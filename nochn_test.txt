@@ -107,3 +107,12 @@ häufig dann, wenn in zwei Branches Änderungen an derselben Datei durchgeführt
 lösen, soferm es möglich ist. Falls es jedoch fehlschlägt, erhältst du eine Meldung und Git kommentiert an den 
 entsprechenden Code-Stellen die gefundenen Konflikte. Diese müssen nun manuell gelöst werden. Danach musst du die 
 Änderungen wieder wie in den drei oben beschriebenen Schritten hochladen.
+
+Zusätzliche Befehle
+Deine Nutzerdaten anpassen
+
+Du kannst die Nutzerinformationen, die beispielsweise bei den Commits in Github stehen, leicht anpassen:
+
+# Passe deine Nutzerinformationen an
+git config --global user.name "Max Mustermann"
+git config --global user.email max@mustermann.de
